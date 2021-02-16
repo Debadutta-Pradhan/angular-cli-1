@@ -5,7 +5,7 @@ pipeline {
       stage ('install modules'){
        steps{
         bat '''
-          npm install --verbose -d
+          npm install
         '''
       }
     }
